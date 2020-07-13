@@ -22,14 +22,14 @@ const HeaderStyled = Styled.header`
 
 function Header(){
   return(
-    <HeaderStyled>
-      <Wrapper>
+    <Wrapper>
+      <HeaderStyled>
         <div className="logo">
           <img src={logo} alt="Logo marcotejeda.com"/>
           <h1>Marco Tejeda</h1>
         </div>
-      </Wrapper>
-    </HeaderStyled>
+      </HeaderStyled>
+    </Wrapper>
   )
 }
 
