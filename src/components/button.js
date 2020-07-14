@@ -1,5 +1,5 @@
 import React from 'react'
-import Styled from 'styled-components';
+import Styled from 'styled-components'
 
 const ButtonStyled = Styled.a`
   cursor: pointer;
@@ -16,7 +16,6 @@ const ButtonStyled = Styled.a`
     color: white;
   }
 `
-
 
 function Button(props) {
   return(
