@@ -9,12 +9,14 @@ const HomeStyled = Styled.div`
     &:nth-child(1){
       display: flex;
       font-size: .9em;
-      max-width: 200px;
       flex-direction: column;
       align-items: self-end;
       justify-content: center;
-      min-height: 300px;
-      p{ margin: 0;}
+      min-height: 280px;
+      p{ 
+        margin: 0;
+        max-width: 200px;
+      }
     }
     &:nth-child(2){
       padding: 0 0 20px 0;

@@ -3,8 +3,9 @@ import Styled from 'styled-components'
 
 const ButtonStyled = Styled.a`
   cursor: pointer;
-  color: #00ADB5;
-  border: 2px solid #00ADB5;
+  color: ${({ theme }) => theme.buttonText};
+  background: ${({ theme }) => theme.buttonBackground};
+  border: 2px solid ${({ theme }) => theme.buttonBorder};
   border-radius: 2em;
   display:inline-block;
   padding: 1em 2em;

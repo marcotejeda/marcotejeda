@@ -1,33 +1,40 @@
 import React from 'react'
 import Styled from 'styled-components'
 import logo from './../assets/images/marcotejeda-logo.svg'
+import logoDark from './../assets/images/marcotejeda-logo-dark.svg'
 import Wrapper from './../components/wrapper'
+import Switch from './../components/switch'
 
 const HeaderStyled = Styled.header`
   height: 40px;
   padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   .logo{
     align-items: center;
     display: flex;
-    img {
-      height: 40px;
-    }
+    img {height: 40px;}
     h1 {
-      font-size: 1.7em;
+      font-size: 1.6em;
       font-weight: 200;
-      margin: 0 0 0 .25em;
+      margin: 0 0 0 .2em;
     }
   }
 `
 
-function Header(){
+function Header(props){
   return(
     <Wrapper>
       <HeaderStyled>
         <div className="logo">
-          <img src={logo} alt="Logo marcotejeda.com"/>
+          <img 
+            src={props.theme === 'dark' ? logoDark : logo} 
+            alt="logo marcotejeda.com"
+          />
           <h1>Marco Tejeda</h1>
         </div>
+        <Switch onToggle={props.onToggle}/>
       </HeaderStyled>
     </Wrapper>
   )

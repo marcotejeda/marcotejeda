@@ -7,22 +7,22 @@
 	<g display="inline">
 		<g>
 			<g>
-				<polygon fill="#222831" points="210,197 207,197 207,116.5 150.5,152 94,116.5 94,197 91,197 91,110.8 150.5,148.3 210,110.8 
+				<polygon fill="#EEEEEE" points="210,197 207,197 207,116.5 150.5,152 94,116.5 94,197 91,197 91,110.8 150.5,148.3 210,110.8 
 									"/>
 			</g>
 		</g>
 		<g>
-			<path fill="#222831" d="M150.5,290l-0.9-0.5L33,220V80l117-70l117,70v140L150.5,290z M36,218.2l114.5,68.1L265,218.2V81.8
+			<path fill="#EEEEEE" d="M150.5,290l-0.9-0.5L33,220V80l117-70l117,70v140L150.5,290z M36,218.2l114.5,68.1L265,218.2V81.8
 				L150.5,13.7L36,81.8V218.2z"/>
 		</g>
 	</g>
 </g>
 <g id="Capa_2">
 	<g>
-		<polyline fill="none" stroke="#222831" stroke-width="6" stroke-miterlimit="10" points="90,195 90,110.9 149.5,147.7 209,110.9 
+		<polyline fill="none" stroke="#EEEEEE" stroke-width="6" stroke-miterlimit="10" points="90,195 90,110.9 149.5,147.7 209,110.9 
 			209,195 		"/>
 	</g>
-	<polygon fill="none" stroke="#222831" stroke-width="6" stroke-miterlimit="10" points="32,80.2 149.5,10.5 267,80.2 267,219.6 
+	<polygon fill="none" stroke="#EEEEEE" stroke-width="6" stroke-miterlimit="10" points="32,80.2 149.5,10.5 267,80.2 267,219.6 
 		149.5,289.3 32,219.6 	"/>
 </g>
 </svg>
