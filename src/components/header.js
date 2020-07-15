@@ -29,12 +29,15 @@ function Header(props){
       <HeaderStyled>
         <div className="logo">
           <img 
-            src={props.theme === 'dark' ? logoDark : logo} 
+            src={props.isDarkTheme ? logoDark : logo} 
             alt="logo marcotejeda.com"
           />
           <h1>Marco Tejeda</h1>
         </div>
-        <Switch onToggle={props.onToggle}/>
+        <Switch 
+          onToggle={props.onToggle}
+          checked={props.isDarkTheme}
+        />
       </HeaderStyled>
     </Wrapper>
   )

@@ -29,7 +29,6 @@ const SwitchStyled = Styled.div`
       transition: .3s;
       will-change: transform;
     }
-    &:focus{outline: none;}
   }
 `
 
@@ -44,6 +43,7 @@ function Switch(props) {
       <input 
         type="checkbox" 
         onChange={handleChange} 
+        checked={props.checked} 
         className="checkbox" 
         id="checkbox" 
       />

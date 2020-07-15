@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { ThemeProvider } from 'styled-components'
 import { GlobalStyles } from './themes/globalStyles'
 import { lightTheme, darkTheme } from './themes/themes'
@@ -7,19 +7,26 @@ import Home from './pages/home'
 
 function App() {
 
-  const [theme, setTheme] = useState('light');
-  const themeMode = theme === 'light' ? lightTheme : darkTheme;
+  const [isDarkTheme, setIsDarkTheme] = useState(false)
+  const themeToggler = () => setIsDarkTheme(!isDarkTheme)
 
-  const themeToggler = () => {
-    theme === 'light' ? setTheme('dark') : setTheme('light')
+  function changeMedia(mq) {
+    setIsDarkTheme(mq.matches)
   }
   
+  useEffect(() => {
+    const mq = window.matchMedia('(prefers-color-scheme: dark)')
+    mq.addListener(changeMedia)
+    setIsDarkTheme(mq.matches)
+    return () => mq.removeListener(changeMedia)
+  },[])
+
   return (
-    <ThemeProvider theme={themeMode}>
+    <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <GlobalStyles/>
       <Header 
         onToggle={themeToggler}
-        theme={theme}
+        isDarkTheme={isDarkTheme}
       />
       <Home/>
     </ThemeProvider>
