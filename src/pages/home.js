@@ -40,7 +40,7 @@ function Home() {
           <p>With over 6 years of professional experience.</p>
           <Button
             link='https://drive.google.com/file/d/0B_47zfjaBuhQUVQ4ZHNDRGlCRm8/edit'
-            target='_blanck'
+            target='_blank'
             text='Download CV'
           />
         </section>

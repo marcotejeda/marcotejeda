@@ -18,10 +18,10 @@ const Socialstyled = Styled.div`
 function Social() {
   return(
     <Socialstyled>
-      <a href="https://pe.linkedin.com/in/marcotejeda" target='_blanck'><Icon icon={linkedin} /></a>
-      <a href="https://twitter.com/olvidemiusuario" target='_blanck'><Icon icon={twitter} /></a>
-      <a href="https://github.com/marcotejeda" target='_blanck'><Icon icon={github} /></a>
-      <a href="https://dev.to/marcotejeda" target='_blanck'><Icon icon={devTo} /></a>
+      <a href="https://pe.linkedin.com/in/marcotejeda" target='_blank'><Icon icon={linkedin} /></a>
+      <a href="https://twitter.com/olvidemiusuario" target='_blank'><Icon icon={twitter} /></a>
+      <a href="https://github.com/marcotejeda" target='_blank'><Icon icon={github} /></a>
+      <a href="https://dev.to/marcotejeda" target='_blank'><Icon icon={devTo} /></a>
     </Socialstyled>
   )
 }
