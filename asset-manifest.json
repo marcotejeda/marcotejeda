@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/static/js/main.0742b79e.chunk.js",
-    "main.js.map": "/static/js/main.0742b79e.chunk.js.map",
+    "main.js": "/static/js/main.e80e2829.chunk.js",
+    "main.js.map": "/static/js/main.e80e2829.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5816bc3c.js",
     "runtime-main.js.map": "/static/js/runtime-main.5816bc3c.js.map",
     "static/js/2.d421f5dc.chunk.js": "/static/js/2.d421f5dc.chunk.js",
     "static/js/2.d421f5dc.chunk.js.map": "/static/js/2.d421f5dc.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f2293b1a98f9160601cd3af8689ba8c4.js": "/precache-manifest.f2293b1a98f9160601cd3af8689ba8c4.js",
+    "precache-manifest.823a015c3b75a9a67c5df5c9355625b8.js": "/precache-manifest.823a015c3b75a9a67c5df5c9355625b8.js",
     "service-worker.js": "/service-worker.js",
     "static/js/2.d421f5dc.chunk.js.LICENSE.txt": "/static/js/2.d421f5dc.chunk.js.LICENSE.txt",
     "static/media/marcotejeda-logo-dark.svg": "/static/media/marcotejeda-logo-dark.7004d4b3.svg",
@@ -16,6 +16,6 @@
   "entrypoints": [
     "static/js/runtime-main.5816bc3c.js",
     "static/js/2.d421f5dc.chunk.js",
-    "static/js/main.0742b79e.chunk.js"
+    "static/js/main.e80e2829.chunk.js"
   ]
 }
