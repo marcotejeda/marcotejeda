@@ -37,7 +37,7 @@ function Home() {
     <Wrapper>
       <HomeStyled>
         <section>
-          <p>With over 6 years of professional experience.</p>
+          <p>With over 7 years of professional experience.</p>
           <Button
             link='https://drive.google.com/file/d/0B_47zfjaBuhQUVQ4ZHNDRGlCRm8/edit'
             target='_blank'
