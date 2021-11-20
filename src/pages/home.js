@@ -10,7 +10,7 @@ const HomeStyled = Styled.div`
       display: flex;
       font-size: .9em;
       flex-direction: column;
-      align-items: self-end;
+      align-items: self-start;
       justify-content: center;
       min-height: 280px;
       p{ 
